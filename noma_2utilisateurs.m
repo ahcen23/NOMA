@@ -27,8 +27,8 @@ count = count + 1;
 end
 hold on;
 plot(R1,R2,'k');
-xlabel('Debit Utilisateur 1 (bps/Hz)');
-ylabel('Debit Utilisateur 2 (bps/Hz)');
+xlabel('Debit Utilisateur 1 (b/s/Hz)');
+ylabel('Debit Utilisateur 2 (b/s/Hz)');
 grid on;
 box on;
 legend('NOMA','OFDMA')
